@@ -19,10 +19,13 @@ jobs:
       run: echo "Pipeline is working!"
 
     - name: Check HTML file
-  run: |
-    if [ -f index.html ]; then
-      echo "HTML file exists ✅"
-    else
-      echo "HTML file missing ❌"
-      exit 1
-    fi
+      run: |
+        if [ -f index.html ]; then
+          echo "HTML file exists ✅"
+        else
+          echo "HTML file missing ❌"
+          exit 1
+        fi
+
+    - name: List files
+      run: ls -la
