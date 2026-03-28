@@ -1,0 +1,13 @@
+{
+  "name": "frontend-developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test yet\"",
+    "build": "echo Building project..."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
